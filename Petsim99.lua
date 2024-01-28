@@ -132,3 +132,5 @@ local Library = loadstring(request({
     ['Url']= 'https://raw.githubusercontent.com/REDzHUB/PetSimulator99/main/redz9999.lua',
     ['Method']='GET'
 }).Body)()
+
+print("XXXXX")
