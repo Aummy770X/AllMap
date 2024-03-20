@@ -13,7 +13,9 @@ end
 if game.PlaceId == 2788229376 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Aummy770X/AllMap/main/DAHOOD.lua"))()
 end
-
+if game.PlaceId == 3978370137 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Aummy770X/AllMap/main/Grand%20Piece%20Online"))()
+end
 
 
 
